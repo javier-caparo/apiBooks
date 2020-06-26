@@ -2,6 +2,19 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
 
+It has a express.js server side configured to serve apis at : http://localhost:3000 ( subdirectory express-server) . Executed as : npm start on that subdirectory.
+
+To execute teh angular web site run as : npm start ( or ng serve --proxy-config ./proxy.json).
+
+This proyect includes :
+auth guards on navbar 
+Rgister is functional ( create a new register as: name: test5 ; email : test5@test; password: 12345)
+
+Dexie is using to store new registered users ( functional) and books ( still in develpment).
+
+Also inlcude httpClient module and calls to apis confugred at express.node.
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
